@@ -7,13 +7,12 @@ namespace LemonadeStand
 {
     public class CupOfLemonade
     {
-        int cupsSugar;
-        int numberCups;
+        int price;
 
         public CupOfLemonade()
         {
 
         }
-        
+
     }
 }
