@@ -12,7 +12,7 @@ namespace LemonadeStand
         {
             Weather Weather = new Weather();
 
-            Weather.GenerateWeather();
+            Weather.GenerateWeatherConditions();
         }
     }
 }
