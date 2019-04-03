@@ -5,14 +5,7 @@ using System.Text;
 
 namespace LemonadeStand
 {
-    public class CupOfLemonade
+    public class InputValidation
     {
-        int price;
-
-        public CupOfLemonade()
-        {
-
-        }
-
     }
 }

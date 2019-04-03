@@ -10,6 +10,9 @@ namespace LemonadeStand
     {
         static void Main(string[] args)
         {
+            Weather Weather = new Weather();
+
+            Weather.GenerateWeather();
         }
     }
 }

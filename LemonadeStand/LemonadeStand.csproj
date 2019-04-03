@@ -43,11 +43,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\AlexMyersLemonadeStand\LemonadeStand\CupOfLemonade.cs">
+      <Link>CupOfLemonade.cs</Link>
+    </Compile>
+    <Compile Include="ActualWeather.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="Day.cs" />
+    <Compile Include="Forecast.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="InputValidation.cs" />
+    <Compile Include="Inventory.cs" />
+    <Compile Include="Menus.cs" />
+    <Compile Include="Pitcher.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Store.cs" />
+    <Compile Include="Weather.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
